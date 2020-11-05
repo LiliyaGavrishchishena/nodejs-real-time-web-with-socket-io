@@ -1,11 +1,11 @@
 {
   "name": "chatter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js, Express, Socket.io",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./index.js --exec babel-node -e js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "DEBUG=* nodemon ./index.js --exec babel-node -e js"
   },
   "author": "Liliya Gavrishchishena",
   "license": "ISC",
